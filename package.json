@@ -1,0 +1,20 @@
+{
+  "name": "blocks-prototype",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^4.7.16",
+    "babel-loader": "^5.0.0",
+    "extract-text-webpack-plugin": "^0.5.0",
+    "react": "^0.13.3",
+    "react-hot-loader": "^1.2.7",
+    "webpack": "^1.7.3",
+    "webpack-dev-server": "^1.9.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --host 0.0.0.0 --config webpack.dev.js --content-base ./src/"
+  }
+}
